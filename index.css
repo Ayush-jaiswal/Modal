@@ -1,0 +1,89 @@
+#button1{
+	color: black;
+	background-color: #ffe6e6;
+	border-color: #007bff;
+	padding: 15px 32px;
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: -1;
+}
+.modal_container{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	background-color: rgba(33, 37, 41,0.7);
+	display: none;
+	
+}
+.modal_body{
+	width: 550px;
+	height: 250px;
+	background-color: white;
+	margin-top: 80px;
+	border-radius: 5px;
+	display: none;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	padding: 16px;
+	justify-content: space-between;
+	border-bottom: 1px solid #e6e6e6;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 16px;
+}
+.content{
+	padding: 16px;
+	height: 35%;
+	border-bottom: 1px solid #e6e6e6;
+}
+h5{
+	font-size: 20px;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	color: #394047;
+}
+
+#cross{
+	color: #394047;
+	cursor: pointer;
+}
+.modalbutton{
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	background-color: #66b3ff;
+	border-width: 0.5px;
+
+}
+#close{
+	background-color: rgba(204, 0, 82,0.8);
+}
+#save{
+	background-color: green;
+}
+#modaltext{
+		font-family: 'Lato', sans-serif;
+		font-weight: normal;
+		font-size: 15px;
+		color: #404040;
+
+}
+
+
+@media screen and (max-width: 700px){
+	.modal_body{
+		width:90%;
+		 
+	}
+}
